@@ -1,0 +1,43 @@
+TO Edit your vim and make custom commands 
+
+
+goto your vim ~/.vimrc 
+
+TO create your assembly program 
+
+nasm -f -elf32 FileName -o FileName.o
+
+To compile it 
+gcc -m32 Filename.o -o ExecutableName
+
+
+Remeber you can make a make script simply by 
+ touch Makefile
+
+ and to make the commands 
+ ArgumentName: FileYourDealingWith
+ [TAB]		Recompile it 
+
+
+ TO use the commands Type make COmmandName
+
+to yank something type yy
+To paste something type p THIS IS IN VIM 
+
+To Rename a file 
+type mv filename NewNameTHATDOESNTEXIST
+
+TO FORCE REMOVE A Dir that is full 
+rm -rf FILENAME/DIRNAME
+
+
+The Vim editor enables you to define your own commands. You execute these commands just like any other Command-line mode command. To define a command, use the ":command" command, as follows:
+
+:command DeleteFirst 1delete
+
+Now when you execute the command ":DeleteFirst" Vim executes ":1delete", which deletes the first line.
+
+Note: User-defined commands must start with a capital letter. You cannot use ":X", ":Next" and ":Print". The underscore cannot be used! You can use digits, but this is discouraged.
+
+
+
