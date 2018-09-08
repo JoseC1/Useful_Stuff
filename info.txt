@@ -1,6 +1,17 @@
+TO USE GITHUB:
+git init ;To initlize a local git hub repository 
+git status ;to check status
+git add . ;To add all the files to the commit query 
+git commit -m "MSG" . ;TO commit all files with the same msg 
+git remote add origin GITHUBLINK 
+git push -u origin ;TO PUSH UR local repository to git hub
+
+ONCE ALL THAT LINKED THEN 
+git push ;to push anyupdates to git hub
+git pull ; to pull any updates from the git hub sever 
+git branch ; Working with mulitple people USEFUL AS HELL
+
 TO Edit your vim and make custom commands 
-
-
 goto your vim ~/.vimrc 
 
 TO create your assembly program 
