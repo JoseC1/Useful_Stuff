@@ -11,6 +11,9 @@ git push ;to push anyupdates to git hub
 git pull ; to pull any updates from the git hub sever 
 git branch ; Working with mulitple people USEFUL AS HELL
 
+TO COPY DIR IN LINUX 
+cp -R source destination/
+
 TO Edit your vim and make custom commands 
 goto your vim ~/.vimrc 
 
